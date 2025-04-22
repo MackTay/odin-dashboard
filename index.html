@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Dashboard</title>
     <link href="./fonts/lato.woff2" rel="preload" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <style>
         @font-face {
-            font-family: 'lato';
+            font-family: "lato";
             src: url(./fonts/lato.woff2);
         }
     </style>
@@ -15,7 +16,10 @@
 <body>
 <div class="container">
 <div class="top-bar">
-
+<form action="#" method="get">
+    <label for="searchbar"><img class="icons" src="./images/icons/magnify.svg" alt="searchbar icon"></label>
+    <input type="search" name="search" id="searchbar">
+</form>
 </div>
 <div class="nav">
 
@@ -30,7 +34,7 @@
 
 </div>
 <div class="trending">
-    
+
 </div>
 </div>
 </body>
