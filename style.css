@@ -64,6 +64,10 @@
     width: 3rem;
 }
 
+.profile-large {
+    width: 4rem;
+}
+
 .display-link {
     text-decoration: none;
     color: black;
