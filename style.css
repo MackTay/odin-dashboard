@@ -70,8 +70,25 @@
 }
 
 .top-bar {
+    display: flex;
+    align-items: center;
     grid-column: 2 / 4;
     grid-row: 1 / 2;
+    padding: 0.5rem;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1 65%;
+}
+
+.top-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1 35%;
 }
 
 .content-management {
@@ -115,6 +132,6 @@
     color: black;
 }
 
-a > img {
+img {
     display: inline;
 }
