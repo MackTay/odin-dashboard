@@ -249,6 +249,11 @@ button:active {
   box-shadow: 2px 2px 10px lightgray;
 }
 
+.social-icons {
+  margin-top: 0.7rem;
+  text-align: right;
+}
+
 .announcements {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
