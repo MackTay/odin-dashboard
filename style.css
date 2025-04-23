@@ -213,7 +213,15 @@ button {
 }
 
 .project-cards > div {
-  border: ;
+  border-radius: 10px;
+  padding: 0.8rem;
+  background: linear-gradient(
+    to right,
+    var(--tertiary-color) 0%,
+    var(--tertiary-color) 3%,
+    white 3%,
+    white 100%
+  );
 }
 
 .announcements {
