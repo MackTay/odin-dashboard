@@ -56,7 +56,13 @@
     isolation: isolate;
   }
 
-.container {
+input,
+button {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+  .container {
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -124,7 +130,7 @@ input[type="search"]:focus {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-basis: 50%;
+  width: 60%;
   margin: auto 0.5rem;
   gap: 1rem;
 }
@@ -145,6 +151,20 @@ input[type="search"]:focus {
 
 .content-buttons {
   margin-right: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4rem;
+  gap: 2rem;
+  width: 40%;
+}
+
+button {
+  appearance: none;
+  border: solid 1px black;
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  width: 6rem;
 }
 
 .projects {
