@@ -177,6 +177,22 @@ button {
   grid-row: 1 / 5;
 }
 
+.side-title {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 1rem;
+  justify-content: flex-start;
+  font-size: 2rem;
+}
+
+.mid-sidebar {
+
+}
+
+.low-sidebar {
+
+}
+
 .projects {
   grid-column: 2 / 3;
   grid-row: 3 / 5;
