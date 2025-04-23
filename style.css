@@ -77,11 +77,22 @@
     padding: 0.5rem;
 }
 
+.searchbar-form {
+    display: flex;
+    align-items: center;
+}
+
 input[type="search"] {
     appearance: none;
     border: 1px solid black;
-    border-radius: 10px;
-    align-self: center;
+    border-radius: 20px;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+input[type="search"]:focus {
+  background-color: lightgray;
 }
 
 .search {
