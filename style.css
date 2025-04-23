@@ -56,6 +56,12 @@
     isolation: isolate;
   }
 
+:root {
+  --primary-color: #8E7DBE;
+  --secondary-color: #F4F8D3;
+  --tertiary-color: #A6D6D6;
+}
+
 input,
 button {
   font-family: inherit;
@@ -100,7 +106,7 @@ input[type="search"] {
 }
 
 input[type="search"]:focus {
-  background-color: lightgray;
+  background-color: var(--secondary-color);
 }
 
 .search {
@@ -161,7 +167,8 @@ input[type="search"]:focus {
 button {
   appearance: none;
   border: solid 1px black;
-  background-color: aqua;
+  background-color: var(--primary-color);
+  color: white;
   border-radius: 20px;
   padding: 0.4rem 1rem;
   width: 6rem;
