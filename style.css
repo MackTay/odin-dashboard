@@ -125,6 +125,7 @@ input[type="search"]:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .profile-display {
@@ -199,7 +200,8 @@ button {
 .projects {
   grid-column: 2 / 3;
   grid-row: 3 / 5;
-  padding: 1rem 0.5rem;
+  padding: 1rem 0.9rem;
+  background-color: var(--secondary-color);
 }
 
 .project-cards {
@@ -210,14 +212,20 @@ button {
   column-gap: 0.5rem;
 }
 
+.project-cards > div {
+  border: ;
+}
+
 .announcements {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
+  background-color: var(--secondary-color);
 }
 
 .trending {
   grid-column: 3 / 4;
   grid-row: 4 / 5;
+  background-color: var(--secondary-color);
 }
 
 .icons {
