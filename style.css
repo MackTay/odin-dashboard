@@ -80,6 +80,7 @@
 .searchbar-form {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 input[type="search"] {
@@ -89,7 +90,7 @@ input[type="search"] {
     padding: 0.2rem 0.5rem;
     font-size: 0.8rem;
     margin-left: 0.5rem;
-    width: 30rem;
+    width: clamp(10rem, 80%, 40rem);
 }
 
 input[type="search"]:focus {
@@ -114,6 +115,36 @@ input[type="search"]:focus {
 .content-management {
     grid-column: 2 / 4;
     grid-row: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-display {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: 50%;
+  margin: auto 0.5rem;
+  gap: 1rem;
+}
+
+.greeting,
+.user-name {
+  display: block;
+}
+
+.greeting {
+  font-size: 1rem;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.content-buttons {
+  margin-right: 2rem;
 }
 
 .projects {
