@@ -173,14 +173,14 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   height: 100%;
+  padding: 2rem;
   grid-column: 1 / 2;
   grid-row: 1 / 5;
 }
 
 .side-title {
-  margin: 2rem 1rem;
   font-size: 2rem;
 }
 
