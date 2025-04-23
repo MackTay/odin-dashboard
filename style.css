@@ -180,6 +180,19 @@ button {
   padding: 2rem;
   grid-column: 1 / 2;
   grid-row: 1 / 5;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.side-title > svg {
+  color: white;
+  height: 2.5rem;
+}
+
+.mid-sidebar svg,
+.low-sidebar svg {
+  color: white;
+  height: 1.5rem;
 }
 
 .side-title {
