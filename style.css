@@ -174,6 +174,7 @@ button {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  gap: 2rem;
   height: 100%;
   padding: 2rem;
   grid-column: 1 / 2;
@@ -181,15 +182,18 @@ button {
 }
 
 .side-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.mid-sidebar {
-
-}
-
-.low-sidebar {
-
+.side-title,
+.mid-sidebar > div,
+.low-sidebar > div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .projects {
