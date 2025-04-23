@@ -201,6 +201,12 @@ button {
   grid-row: 3 / 5;
 }
 
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+}
+
 .announcements {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
