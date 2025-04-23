@@ -222,6 +222,7 @@ button {
     white 3%,
     white 100%
   );
+  box-shadow: 2px 2px 10px lightgray;
 }
 
 .announcements {
